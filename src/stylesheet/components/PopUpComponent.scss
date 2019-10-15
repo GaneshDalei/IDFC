@@ -1,0 +1,45 @@
+.pop_up-box-wapper{
+    .pop_up-box-inner{
+        div{
+            cursor: pointer;
+            .inner{
+                div{
+                    margin-top: 18px;
+                    width: 100%;
+                }
+                
+            }
+
+        }
+    }
+}
+.list_item{
+    border: 1px solid #bfbdbd;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    /* margin-top: 10px; */
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.list_item:hover{
+    color: red;
+}
+.close_button{
+    font-size: 20px !important;
+    text-align: end !important;
+    border: 1px solid #bfbdbd;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+ 
+}
+.close{
+    display: none;
+}
+.selected{
+    color: red;
+    text-decoration: underline;
+}
