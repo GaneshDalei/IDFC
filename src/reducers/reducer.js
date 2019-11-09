@@ -13,7 +13,7 @@ function usersDetaild(state = item, action) {
     }else if(action.type === "CHANGE_USER_CARD"){
         state[action.id].cardStatus = action.target;
         state[action.id].isOpen = false;
-        return[...state];
+        return[...state].slice(0);
     }else
     
     return state;

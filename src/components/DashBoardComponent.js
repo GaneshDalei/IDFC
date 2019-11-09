@@ -5,6 +5,14 @@ class DashBoardComponent extends React.Component {
     constructor(props){
         super(props);
     }
+    componentWillReceiveProps(){
+        console.log("willReceiveProps")
+    }
+    shouldComponentUpdate(){
+        return true;
+        console.log("should Component Updated");
+    }
+
     render() {
         return (
             <div>
@@ -36,6 +44,9 @@ class DashBoardComponent extends React.Component {
             
         
         )
+    }
+    componentDidMount(){
+        console.log("render++++++++++++++++++++++++");
     }
 }
 export default DashBoardComponent;
